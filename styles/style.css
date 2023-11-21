@@ -40,6 +40,10 @@
 }
 
 /* Base */
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: var(--color-primary-dark);
     font-family: 'Roboto', sans-serif;
