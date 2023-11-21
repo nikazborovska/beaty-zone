@@ -45,6 +45,11 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    line-height: normal;
+}
+
+address {
+    font-style: normal;
 }
 
 ul {
@@ -53,7 +58,7 @@ ul {
 
 
 /* Button */
-button {
+.button {
     color: var(--color-primary-light);
     font-weight: 600;
     border: 2px solid var(--color-primary-accent);
@@ -61,13 +66,109 @@ button {
     background-color: var(--color-primary-accent);
 }
 
+.button:hover {
+    color: var(--color-primary-dark);
+    background-color: transparent;
+}
 
+/* Links */
+.link {
+    line-height: normal;
+    color: var(--color-primary-dark);
+    text-decoration: none;
+}
 
+.link:hover {
+    font-weight: 700;
+    color: var(--color-primary-accent);
+}
 
-/* Header section */
+/* Main */
+.section-title {
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
 
-
-
-
+.accent {
+    color: #2B7FFF;
+}
 
 /* Hero section */
+.hero-title {
+    color: var(--color-primary-accent);
+    font-family: 'Play', sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.8;
+    text-transform: capitalize;
+}
+
+.hero-text {
+    color: #4A4A4A;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* About section */
+.about-accent {
+    text-transform: capitalize;
+}
+
+.about-accent-small {
+    font-weight: 600;
+}
+
+.about-text {
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+/* Advantages section */
+.advantages-text {
+    color: #000;
+    text-align: center;
+    line-height: 1.3;
+}
+
+/* Procedures section */
+.procedure-title {
+    color: var(--color-primary-light);
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.2;
+
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-primary-dark);
+}
+
+.link-footer {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.link-footer:hover {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.address-link {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.address-link:hover {
+    color: var(--color-primary-accent);
+}
+
+.address-copyright {
+    color: #747272;
+    font-size: 13px;
+}
+
+
+
