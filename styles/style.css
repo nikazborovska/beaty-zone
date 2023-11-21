@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
   font-display: swap;
   font-family: 'Roboto';
@@ -30,10 +31,19 @@
        url('../fonts/play-v19-latin-700.woff') format('woff');
 }
 
+/* Variables */
+:root {
+    --color-primary-accent: #2B7FFF;
+    --color-primary-light: #FFFFFF;
+    --color-primary-dark: #011C44;
 
+}
 
+/* Main section */
 body {
+    color: var(--color-primary-dark);
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
+
 }
