@@ -50,6 +50,11 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
 }
 
 address {
@@ -60,14 +65,22 @@ ul {
     list-style-type: none;
 }
 
+.container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
 
 /* Button */
 .button {
     color: var(--color-primary-light);
-    font-weight: 600;
+    background-color: var(--color-primary-accent);
     border: 2px solid var(--color-primary-accent);
     border-radius: 32px;
-    background-color: var(--color-primary-accent);
+    font-weight: 600;
+    padding: 16px 32px;
 }
 
 .button:hover {
@@ -87,11 +100,17 @@ ul {
     color: var(--color-primary-accent);
 }
 
+/* Header section */
+.header-section {
+    padding: 32px 0;
+}
+
 /* Main */
 .section-title {
     font-family: 'Play', sans-serif;
     font-size: 64px;
     font-weight: 700;
+    margin-bottom: 48px;
 }
 
 .accent {
@@ -99,6 +118,10 @@ ul {
 }
 
 /* Hero section */
+.hero-section {
+    padding: 16px 0 64px 0;
+}
+
 .hero-title {
     color: var(--color-primary-accent);
     font-family: 'Play', sans-serif;
@@ -106,6 +129,11 @@ ul {
     font-weight: 700;
     line-height: 0.8;
     text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.hero-subtitle {
+    margin-bottom: 16px;
 }
 
 .hero-text {
@@ -115,6 +143,15 @@ ul {
 }
 
 /* About section */
+.about-section {
+    padding: 64px 0 88px 0;
+}
+
+.about-title {
+    margin-bottom: 40px;
+    padding-top: 41px;
+}
+
 .about-accent {
     text-transform: capitalize;
 }
@@ -128,7 +165,19 @@ ul {
     line-height: 1.7;
 }
 
+.text-offer {
+    margin-bottom: 40px;
+}
+
+.text-guarantee {
+    margin-bottom: 199px;
+}
+
 /* Advantages section */
+.advantages-section {
+    padding: 88px 0 52px 0;
+}
+
 .advantages-text {
     color: #000;
     text-align: center;
@@ -136,12 +185,20 @@ ul {
 }
 
 /* Procedures section */
+.procedures-section {
+    padding: 52px 0 45px 0;
+}
+
 .procedure-title {
     color: var(--color-primary-light);
     text-align: center;
     font-size: 22px;
     line-height: 1.2;
+}
 
+/* Contacts section */
+.contacts-section {
+    padding: 45px 0 94px 0;
 }
 
 /* Footer */
