@@ -106,21 +106,24 @@ ul {
 .header-container {
     display: flex;
     align-items: center;
+    gap: 60px;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    gap: 240px;
+    gap: 60px;
 }
 
 .header-menu {
     display: flex;
-    gap: 56px;  
+    gap: 56px;
+    flex-grow: 1;
+    justify-content: center;
 }
 
-.address-header {
+.icons-header {
     display: flex;
     gap: 32px;
 }
